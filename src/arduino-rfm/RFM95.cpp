@@ -236,7 +236,7 @@
     { 0xE7, 0xE0, 0x27}, //Rcv Channel [7] 927.5 Mhz / 61.035 Hz = 15196199 = 0xE7E027
   };
 #elif defined(AS_923)
-  static const PROGMEM unsigned char  [9][3] = {//[923.2 - 924.8] MHz
+  static const PROGMEM unsigned char LoRa_Frequency[9][3] = {//[923.2 - 924.8] MHz
     { 0xE6, 0xCC, 0xF4 }, //Channel [0], 923.2 MHz / 61.035 Hz = 15125748 = 0xE6CCF4
     { 0xE6, 0xD9, 0xC0 }, //Channel [1], 923.4 MHz / 61.035 Hz = 15129024 = 0xE6D9C0
     { 0xE6, 0xE6, 0x8D }, //Channel [2], 923.6 MHz / 61.035 Hz = 15132301 = 0xE6E68D
